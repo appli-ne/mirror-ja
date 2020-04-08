@@ -35,35 +35,35 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Pause preview
-    description                           : 
+    description                           : Pause preview to see image.
     fontawesome_icon_name                 : pause-circle
     
   - title                                 : Resume preview
-    description                           : 
+    description                           : Resume preview and show image.
     fontawesome_icon_name                 : play-circle
 
   - title                                 : Zoom
-    description                           : up to 10 times
+    description                           : You can zoom the image up to 10 times.
     fontawesome_icon_name                 : search-plus
 
-  - title                                 : Exposure (brightness) adjustment
-    description                           : 
+  - title                                 : Exposure adjustment
+    description                           : You can adjust the exposure (brightness).
     fontawesome_icon_name                 : adjust
 
   - title                                 : Light frame
-    description                           : 
+    description                           : It can be used in dark places with light frames.
     fontawesome_icon_name                 : lightbulb
   
   - title                                 : Gallery
-    description                           : 
+    description                           : You can check the images in the gallery.
     fontawesome_icon_name                 : file-image
 
   - title                                 : Saving still images
-    description                           : 
+    description                           : Save the still image.
     fontawesome_icon_name                 : save
 
   - title                                 : Sharing still image
-    description                           : 
+    description                           : Share a still image.
     fontawesome_icon_name                 : share-alt
 
   - title                                 : 
