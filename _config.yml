@@ -10,9 +10,9 @@ presskit_download_link                    :                                     
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/ic_launcher.png                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Mirror                                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 : Free                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Easy to use mirror application! Zoom, exposure, lighting and freeze functions.
+app_name                                  : ミラー（鏡）                               # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : 無料                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : 簡単に使えるミラー（鏡）アプリです！ ズーム・露出（明るさ）・ライト・静止画などの機能があります。
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -34,36 +34,36 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Pause preview
-    description                           : Pause preview to see image.
+  - title                                 : プレビューの一時停止
+    description                           : プレビューを一時停止して画像を表示します。
     fontawesome_icon_name                 : pause-circle
     
-  - title                                 : Resume preview
-    description                           : Resume preview and show image.
+  - title                                 : プレビューの再開
+    description                           : プレビューを再開します。
     fontawesome_icon_name                 : play-circle
 
-  - title                                 : Zoom
-    description                           : You can zoom the image up to 10 times.
+  - title                                 : ズーム
+    description                           : 10倍まで画像をズームできます。
     fontawesome_icon_name                 : search-plus
 
-  - title                                 : Exposure adjustment
-    description                           : You can adjust the exposure (brightness).
+  - title                                 : 露出の調整
+    description                           : 露出（明るさ）を調整できます。
     fontawesome_icon_name                 : adjust
 
-  - title                                 : Light frame
-    description                           : It can be used in dark places with light frames.
+  - title                                 : ライトフレーム
+    description                           : ライトフレームで暗い場所で使用できます。
     fontawesome_icon_name                 : lightbulb
   
-  - title                                 : Gallery
-    description                           : You can check the images in the gallery.
+  - title                                 : ギャラリー
+    description                           : ギャラリーで画像を確認できます。
     fontawesome_icon_name                 : file-image
 
-  - title                                 : Saving still images
-    description                           : Save the still image.
+  - title                                 : 静止画の保存
+    description                           : 静止画を保存します。
     fontawesome_icon_name                 : save
 
-  - title                                 : Sharing still image
-    description                           : Share a still image.
+  - title                                 : 静止画の共有
+    description                           : 静止画を共有します。
     fontawesome_icon_name                 : share-alt
 
   - title                                 : 
