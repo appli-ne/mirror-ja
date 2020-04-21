@@ -12,7 +12,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/ic_launcher.png                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : ミラー（鏡）                               # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : 無料                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : 簡単に使えるミラー（鏡）アプリです！ ズーム・露出（明るさ）・ライト・静止画などの機能があります。
+app_description                           : スマホがミラー・かがみになるアプリです！ 無料で簡単に使えます！
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
