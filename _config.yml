@@ -6,8 +6,10 @@ ios_app_id                                :                                     
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            : https://play.google.com/store/apps/details?id=com.appli_ne.mirror                                          # Enter Google Play Store URL.
-presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    : ../index.html                             # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+lang_name                                 : English
+lang_link                                 : ../mirror/
 
 app_icon                                  : assets/ic_launcher.png                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : ミラー（鏡）                               # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
@@ -20,7 +22,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : appli-ne（アプリね）                                
-your_link                                 :                      
+your_link                                 : https://appli-ne.github.io/                     
 your_city                                 : Japan                                
 email_address                             : info.appline.jp@gmail.com
 facebook_username                         :                                           
