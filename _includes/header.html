@@ -25,7 +25,10 @@
 				{% endif %}
 			{% endfor %}
 			{% if site.presskit_download_link %}
-				<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
+				<li><a href="{{ site.presskit_download_link }}" target="_self">ホーム</a></li>
+			{% endif %}
+			{% if site.lang_link %}
+				<li><a href="{{ site.lang_link }}" target="_self">{{ site.lang_name }}</a></li>
 			{% endif %}
 		</ul>
 	</nav>
