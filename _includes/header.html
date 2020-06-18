@@ -27,9 +27,9 @@
 			{% if site.presskit_download_link %}
 				<li>
 					{% if page.url != '/' %}
-						<a href="../{{ site.presskit_download_link }}" target="_self">Home</a>
+						<a href="../{{ site.presskit_download_link }}" target="_self">{{ site.presskit_download_name }}</a>
 					{% else %}
-						<a href="{{ site.presskit_download_link }}" target="_self">Home</a>
+						<a href="{{ site.presskit_download_link }}" target="_self">{{ site.presskit_download_name }}</a>
 					{% endif %}
 				</li>
 			{% endif %}
