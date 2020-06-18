@@ -9,7 +9,7 @@
 				</defs>
 			</svg>
 			{% if page.url != '/' %}
-				<a href="../" target="_self"><img class="headerIcon" src="{{ site.app_icon }}"></a>
+				<a href="../" target="_self"><img class="headerIcon" src="../{{ site.app_icon }}"></a>
 			{% else %}
 				<img class="headerIcon" src="{{ site.app_icon }}">
 			{% endif %}
@@ -25,10 +25,22 @@
 				{% endif %}
 			{% endfor %}
 			{% if site.presskit_download_link %}
-				<li><a href="{{ site.presskit_download_link }}" target="_self">ホーム</a></li>
+				<li>
+					{% if page.url != '/' %}
+						<a href="../{{ site.presskit_download_link }}" target="_self">Home</a>
+					{% else %}
+						<a href="{{ site.presskit_download_link }}" target="_self">Home</a>
+					{% endif %}
+				</li>
 			{% endif %}
 			{% if site.lang_link %}
-				<li><a href="{{ site.lang_link }}" target="_self">{{ site.lang_name }}</a></li>
+				<li>
+					{% if page.url != '/' %}
+						<a href="../{{ site.lang_link }}" target="_self">{{ site.lang_name }}</a>
+					{% else %}
+						<a href="{{ site.lang_link }}" target="_self">{{ site.lang_name }}</a>
+					{% endif %}
+				</li>
 			{% endif %}
 		</ul>
 	</nav>
