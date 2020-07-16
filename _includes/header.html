@@ -17,31 +17,45 @@
 		</div>
 		<p class="headerName">{{ site.page_title }}</p>
 	</div>
-	<nav class="scroll">
-		<ul>
-			{% for page in site.pages %}
-				{% if page.include_in_header == true %}
-				<li><a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a></li>
+	{% if page.icon_only_header != true %}
+		<nav class="scroll">
+			<ul>
+				{% if page.url != '/' %}
+					{% for page in site.pages %}
+						{% if page.include_in_header == true %}
+							<li>
+								<a href="..{{ page.url }}" target="_self">{{ page.title }}</a>
+							</li>
+						{% endif %}
+					{% endfor %}
+				{% else %}
+					{% for page in site.pages %}
+						{% if page.include_in_header == true %}
+							<li>
+								<a href=".{{ page.url }}" target="_self">{{ page.title }}</a>
+							</li>
+						{% endif %}
+					{% endfor %}
 				{% endif %}
-			{% endfor %}
-			{% if site.presskit_download_link %}
-				<li>
-					{% if page.url != '/' %}
-						<a href="../{{ site.presskit_download_link }}" target="_self">{{ site.presskit_download_name }}</a>
-					{% else %}
-						<a href="{{ site.presskit_download_link }}" target="_self">{{ site.presskit_download_name }}</a>
-					{% endif %}
-				</li>
-			{% endif %}
-			{% if site.lang_link %}
-				<li>
-					{% if page.url != '/' %}
-						<a href="../{{ site.lang_link }}" target="_self">{{ site.lang_name }}</a>
-					{% else %}
-						<a href="{{ site.lang_link }}" target="_self">{{ site.lang_name }}</a>
-					{% endif %}
-				</li>
-			{% endif %}
-		</ul>
-	</nav>
+				{% if site.presskit_download_link %}
+					<li>
+						{% if page.url != '/' %}
+							<a href="../{{ site.presskit_download_link }}" target="_self">{{ site.presskit_download_name }}</a>
+						{% else %}
+							<a href="{{ site.presskit_download_link }}" target="_self">{{ site.presskit_download_name }}</a>
+						{% endif %}
+					</li>
+				{% endif %}
+				{% if site.lang_link %}
+					<li>
+						{% if page.url != '/' %}
+							<a href="../{{ site.lang_link }}" target="_self">{{ site.lang_name }}</a>
+						{% else %}
+							<a href="{{ site.lang_link }}" target="_self">{{ site.lang_name }}</a>
+						{% endif %}
+					</li>
+				{% endif %}
+			</ul>
+		</nav>
+	{% endif %}
 </header>
