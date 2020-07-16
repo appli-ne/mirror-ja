@@ -17,7 +17,11 @@
 	<title class="pageTitle">{{ site.page_title }}</title>
 	<meta name="description" content="{{ site.app_description }}">
 
-	<link rel="shortcut icon" href="{{ site.app_icon }}">
+	{% if page.url != '/' %}
+		<link rel="shortcut icon" href="../{{ site.app_icon }}">
+	{% else %}
+		<link rel="shortcut icon" href="{{ site.app_icon }}">
+	{% endif %}
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@appli_ne" />
