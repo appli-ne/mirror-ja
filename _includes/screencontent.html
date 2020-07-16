@@ -4,9 +4,9 @@
     {% if file.path contains 'assets/screenshot/' %}
         <script>
             $(function() {
-                $(".iphoneScreen").attr('src', '{{ site.github.baseurl }}{{ file.path }}');
+                $(".iphoneScreen").attr('src', '.{{ file.path }}');
                 $(".iphoneScreen").removeClass("hidden");
-                console.log("{{ file.path }}");
+                console.log(".{{ file.path }}");
             });
         </script>
     {% elsif file.path contains 'assets/videos/' %}
@@ -22,24 +22,24 @@
             <script>
                 $(function() {
                     $(".videoContainer").removeClass("hidden");
-                    $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/mp4">');
-                    console.log("{{ file.path }}");
+                    $(".screenvideo").append('<source src=".{{ file.path }}" type="video/mp4">');
+                    console.log(".{{ file.path }}");
                 });
             </script>
         {% elsif file.extname == ".ogg" %}
             <script>
                 $(function() {
                     $(".videoContainer").removeClass("hidden");
-                    $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/ogg">');
-                    console.log("{{ file.path }}");
+                    $(".screenvideo").append('<source src=".{{ file.path }}" type="video/ogg">');
+                    console.log(".{{ file.path }}");
                 });
             </script>
         {% elsif file.extname == ".webm" %}
         <script>
             $(function() {
                 $(".videoContainer").removeClass("hidden");
-                $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/webm">');
-                console.log("{{ file.path }}");
+                $(".screenvideo").append('<source src=".{{ file.path }}" type="video/webm">');
+                console.log(".{{ file.path }}");
             });
         </script>
         {% endif %}
