@@ -65,7 +65,7 @@
 	.container {
 		grid-column-gap: 0px;
 		grid-template-columns: 1;
-		grid-template-rows: 115px auto auto auto auto;
+		grid-template-rows: 80px auto auto auto auto;
 		grid-template-areas: 
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
@@ -84,7 +84,7 @@
 @media only screen and (max-width: 768px) {
 
 	.page {
-		margin-top: 30px;
+		margin-top: 0px;
 		margin-bottom: 70px;
 		grid-column: 1/-1;
 	}
