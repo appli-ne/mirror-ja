@@ -1,5 +1,6 @@
 #page title
-page_title                                : ミラー（鏡）アプリ - appli-ne（アプリね）    # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : 【ミラーアプリ無料】メイクや自撮りに使えるカメラアプリ - appli-ne（アプリね）       
+                                                                                      # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                :                                           # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -14,7 +15,7 @@ lang_name                                 : English
 lang_link                                 : ../mirror/
 
 app_icon                                  : assets/ic_launcher.png                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : ミラー（鏡）                               # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : ミラー                                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : 無料                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : スマホがミラー・かがみになるアプリです！<br>すべてを無料で簡単に使えます！
 
