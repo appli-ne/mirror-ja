@@ -39,16 +39,12 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : New!!!
-    description                           : Android 11 対応<br>ダークテーマに対応しました！
-    fontawesome_icon_name                 : info-circle
-
   - title                                 : 左右反転
     description                           : 左右反転
     fontawesome_icon_name                 : info-circle
 
   - title                                 : カラーフィルター
-    description                           : カラーフィルターで見やすくできます！<br>（ネガティブ・グレースケール・セピア・ビットレイ）
+    description                           : カラーフィルターで見やすくできます！<br>（ネガティブ・グレースケール・セピア・バイナリ）
     fontawesome_icon_name                 : info-circle
 
   - title                                 : プレビューの一時停止
@@ -83,8 +79,12 @@ features                                  :
     description                           : 静止画を共有します。
     fontawesome_icon_name                 : share-alt
 
+  - title                                 : その他
+    description                           : ダークテーマに対応しました！
+    fontawesome_icon_name                 : info-circle
+
   - title                                 : 対応 OS
-    description                           : Android 5.0 以降
+    description                           : Android 5.0 以降<br>Android 11 対応
     fontawesome_icon_name                 : mobile-alt
 
   - title                                 : # New Feature Title
