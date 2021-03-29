@@ -2,10 +2,17 @@
 layout: page
 title: リリースノート
 include_in_header: false
-date: 2021-03-05 12:00
+date: 2021-03-29 20:00
 ---
 
 # `リリースノート`
+<br>
+
+## **Version 1.10.2**
+2021/03/29
+- 起動時に動かなくなる不具合を修正
+
+---
 <br>
 
 ## **Version 1.10.1**
