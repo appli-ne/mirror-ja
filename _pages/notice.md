@@ -3,10 +3,10 @@ layout: page
 title: お知らせ
 include_in_header: false
 icon_only_header: true
-date: 2021-06-22 17:00
+date: 2021-06-28 17:00
 ---
 # お知らせ
-2021/06/22
+2021/06/28
 <br><br>
 10日間無料でお試しできるプロモーションコードを配布中！
 <br><br>
@@ -15,6 +15,8 @@ date: 2021-06-22 17:00
 （2021/06/30まで）
 <br><br><br>
 【利用方法】
+<br>
+![](../assets/notice/PromotionCode.png)
 <br>
 １．メニューの「広告非表示（有料）」を選択して下さい。
 <br>
