@@ -2,7 +2,7 @@
 layout: page
 title: リリースノート
 include_in_header: false
-date: 2022-02-06 18:00
+date: 2022-02-06 19:00
 ---
 
 # `リリースノート`
