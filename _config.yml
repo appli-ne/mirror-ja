@@ -88,7 +88,7 @@ features                                  :
     fontawesome_icon_name                 : info-circle
 
   - title                                 : 対応 OS
-    description                           : Android 5.0 以降<br>Android 14 対応
+    description                           : Android 5.0 以降<br>Android 16 対応
     fontawesome_icon_name                 : mobile-alt
 
   - title                                 : # New Feature Title
